@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 
 import styled from '@emotion/styled'
 
@@ -111,7 +112,7 @@ export default function Layout({ children, home }) {
       <header className={'header'}>
         {home ? (
           <>
-            <img
+            <Image
               src="/images/profile.jpg"
               className={`headerHomeImage borderCircle`}
               alt={name}
@@ -122,7 +123,7 @@ export default function Layout({ children, home }) {
           <>
             <Link href="/">
               <a>
-                <img
+                <Image
                   src="/images/profile.jpg"
                   className={`headerImage borderCircle`}
                   alt={name}
