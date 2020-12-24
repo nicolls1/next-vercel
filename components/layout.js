@@ -116,8 +116,8 @@ export default function Layout({ children, home }) {
               src="/images/profile.jpg"
               className={`headerHomeImage borderCircle`}
               alt={name}
-              width='8rem'
-              height='8rem'
+              width={128}
+              height={128}
             />
             <h1 className={'heading2Xl'}>{name}</h1>
           </>
@@ -129,8 +129,8 @@ export default function Layout({ children, home }) {
                   src="/images/profile.jpg"
                   className={`headerImage borderCircle`}
                   alt={name}
-                  width='6rem'
-                  height='6rem'
+                  width={96}
+                  height={96}
                 />
               </a>
             </Link>
